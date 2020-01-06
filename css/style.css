@@ -1,0 +1,44 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-navbar {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.get-started {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.get-started__stripe {
+  width: 120px;
+  height: 10px;
+  background-color: red;
+  border-radius: 5px;
+  background-image: linear-gradient(215deg, #029e9a 0%, #124276 100%);
+}
+
+.get-started__button {
+  border: none;
+  width: 250px;
+  height: 50px;
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  background-image: linear-gradient(135deg, #01a49c 0%, #133c74 100%);
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
