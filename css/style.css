@@ -4,7 +4,11 @@ body {
 }
 
 .header-navbar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 80px;
+  max-width: 1170px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,5 +44,43 @@ body {
   border-radius: 25px;
   background-image: linear-gradient(135deg, #01a49c 0%, #133c74 100%);
   color: white;
+}
+
+.callback {
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.callback-sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  background-image: linear-gradient(135deg, #01a49c 0%, #133c74 100%);
+}
+
+.callback-callback-from {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=style.css.map */
