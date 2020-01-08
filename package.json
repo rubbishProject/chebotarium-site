@@ -1,5 +1,5 @@
 {
-  "name": "site",
+  "name": "chebotarium-frontend",
   "version": "0.0.1",
   "description": "chebotarium site project",
   "main": "index.js",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/rubbishProject/chebotarium-site/issues"
   },
-  "homepage": "https://github.com/rubbishProject/chebotarium-site#readme"
+  "homepage": "https://github.com/rubbishProject/chebotarium-site#readme",
+  
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
